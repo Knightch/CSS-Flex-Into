@@ -5,21 +5,15 @@
 .flex-parent{
     display: flex;
     border: 1px solid olivedrab;
+    transition: 3s all ease-in-out;
 }
 .box{
     flex-basis: 25%;
     border: 1px solid olivedrab;
     padding: 12px;
 }
-.n1{
-    order: 2;
-}
-.n2{
-    order: 4;
-}
-.n3{
-    order: 3;
-}
-.n4{
-    order: 1;
+@media (max-width:720px) {
+    .flex-parent{
+        flex-direction: column;
+    }   
 }
