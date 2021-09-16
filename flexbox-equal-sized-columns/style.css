@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-parent{
+    display: flex;
+    border: 1px solid olivedrab;
+}
+.box{
+    flex-basis: 25%;
+    border: 1px solid olivedrab;
+    padding: 12px;
+}
+.n1{
+    flex-basis: 50%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.n2{
+    flex-basis: 25%;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+.n3{
+    flex-basis: 25%;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+.n4{
+    flex-basis: 40%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
