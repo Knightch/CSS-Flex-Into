@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big-box{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: seagreen;
+    margin: 100px auto;
+    width: 300px;
+    height: 300px;
+}
